@@ -1,0 +1,24 @@
+# Propagator class configuration
+propagator:
+  cube_size: 4 # Size of the cube
+  origin: [0, 0, 0] # Origin coordinates
+  start_temp: 275 # Initial temperature in Kelvin
+  end_temp: 375 # Final temperature in Kelvin
+  increment: 1 # Size of temperature increment added to system in Kelvin
+  delay: 1 # Delay between temperature increments
+  max_iterations: 1E4 # Maximum number of iterations
+  delta_tolerance: 1E-1 # Temperature tolerance for Numpy isclose check
+
+# HeatConductor class configuration
+heat_conductor:
+  k: 226 # Thermal conductivity of the material (W/m·K)
+  c_p: 900 # Specific heat capacity of the material (J/kg·K)
+  rho: 2700 # Density of the material (kg/m³)
+  min_delta: 1E-5 # Minimum temperature delta to help reduce complexity
+  conduction_time: 1E3 # Simulated time in seconds per "time step"
+  delta_x: 1 # Distance between cell centers (m)
+  a: 1 # Cross-sectional area of heat transfer (m²)
+
+# Animator class configuration
+animator:
+  interval: 100 # Interval for updating the plot
