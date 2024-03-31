@@ -10,7 +10,7 @@ experience, making complex concepts more accessible and engaging.
 
 ## Installation
 
-To install these packages, use pip:
+To install packages, use pip:
 
 `pip install -r requirements.txt`
 
