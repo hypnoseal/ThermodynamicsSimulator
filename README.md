@@ -10,22 +10,6 @@ experience, making complex concepts more accessible and engaging.
 
 ## Installation
 
-Before running the project, make sure you have the following packages installed:
-
-* [PyYAML](https://pypi.org/project/PyYAML/)
-* [contourpy](https://pypi.org/project/Contourpy/)
-* [Matplotlib](https://matplotlib.org/stable/users/installing.html)
-* numpy
-* pillow
-* cycler
-* fonttools
-* kiwisolver
-* matplotlib
-* pip
-* pyparsing
-* python-dateutil
-* six
-
 To install these packages, use pip:
 
 `pip install -r requirements.txt`
